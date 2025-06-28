@@ -206,3 +206,25 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.skills-list li {
+  background: #f0f0f0;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.skills-list li:hover {
+  background: #dcdcdc;
+}
