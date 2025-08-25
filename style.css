@@ -1,4 +1,5 @@
-/* 🌐 Variables */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 :root {
   --primary: #1e3a8a;
   --accent: #facc15;
@@ -23,7 +24,7 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
-  padding-top: 60px; /* navbar height offset */
+  padding-top: 60px;
 }
 
 /* 🧭 Navbar */
@@ -92,11 +93,11 @@ body {
 
 /* 🧾 Sections */
 section {
-  padding: 6rem 1rem 4rem; /* top padding increased for navbar offset */
+  padding: 6rem 1rem 4rem;
   text-align: center;
   max-width: 1000px;
   margin: auto;
-  scroll-margin-top: 80px; /* for anchor scrolling offset */
+  scroll-margin-top: 80px;
 }
 
 h2 {
@@ -206,6 +207,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 .skills-list {
   list-style: none;
   padding: 0;
