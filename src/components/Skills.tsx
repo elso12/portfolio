@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const skills = [
     {
-        category: "Frontend",
-        items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3", "JavaScript (ES6+)"],
+        category: "Full Stack & MERN",
+        items: ["MongoDB", "Express.js", "React", "Node.js", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript (ES6+)"],
     },
     {
         category: "Tools & DevOps",
